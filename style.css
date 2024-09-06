@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #0b0b69;
+}
+
+.navbar-brand{
+    margin-left: 200px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.custom-button1{
+    margin-left: 200px;
+    background-color: #0b0b69;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    padding: 4px;
+    font-size: smaller;
+}
+.nav-bg{
+    background-color: #0b0b69;
+}
+.nav-item{
+    font-size: medium;
+}
+
+.intro-body{
+
+    margin-top: 100px;
+}
+#intro-fluid{
+    background-color: #0b0b69;
+    color: white;
+}
+
+#intro-heading{
+        
+    margin-top: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.servicepara{
+
+    margin-top: 100px;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+}
+
+.serviceh2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 350px;
+}
+.service-card-img{
+    margin: auto;
+}
+
+.service-card:hover{
+    text-transform: white !important ;
+    background-color: rgb(233, 79, 130);
+}
+
+.customized-service{
+
+    background-color: #0b0b69;
+}
+.customized-p1{
+
+    color: rgb(202, 57, 105);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.customized-h1{
+
+    width: 400px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.customized-p2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    width:400px;
+    }   
+#customized-cards{
+
+    background-color: #0b0b69;
+}
+.customized-cards-hover :hover{
+
+    background-color: rgb(210, 200, 200);   
+    color: black;
+}
+.custom-button3{
+
+    border: 1px solid rgb(228, 65, 92);
+    color: rgb(233, 90, 113);
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.custom-button3:hover{
+
+    background-color: black;
+    color: white;
+
+}
+
+.greatstuff-card1{
+
+    border-radius: 10px;
+    background-image: url(./images/images/stuffs1.jpg);
+    background-size: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.greatstuff-card2{
+
+        border-radius: 10px;
+        background-image:url(./images/images/stuffs2.jpg) ;
+        background-size:100% ;
+        height: 300px;
+        background-repeat:no-repeat ;
+        background-position: center;
+}
+
+.greatstuff-card3{
+
+    border-radius: 10px;
+    background-image: url(./images/images/stuffs3.jpg);
+    background-size: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.greatstuff-cards-h1{
+
+    margin-top: 100px
+}
+.greatstuff-cardimg{
+    width: 30px;
+}
+
+.vedio-bgimg{
+
+    background-image: url(./images/images/section_bg01.jpg);
+    background-size:cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fixed;
+
+}
+.vedio-icon{
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(219, 20, 86);
+    font-size:40px;
+
+}
+.custom-button4{
+    color:orangered;
+    font-size: 15px;
+    border: 2px solid orangered;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 200px; 
+    padding: 10px 5px;
+
+}
+.custom-button4:hover{
+
+    background-color: black;
+    color: white;
+    border:none;
+
+}
+
+
+@media only screen and (min-width:380px){
+
+.navbar-brand{
+
+    margin-left: 30px;
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+
+.custom-button1{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+}
